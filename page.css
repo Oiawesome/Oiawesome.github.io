@@ -1,4 +1,3 @@
-
 /* these mess up vbulletin */
 
 a:link, a:visited {
@@ -201,7 +200,7 @@ ul.damage_calculation {
 
 #front_learn {
     border-width: 1px 0 !important; /* Make the top have a border line */
-    background: url(/media/front_learn.png) left no-repeat;
+    background: url(http://oiawesome99.deviantart.com/art/Front-Learn-441140736) left no-repeat;
 }
 
 #front_learn li {
@@ -209,7 +208,7 @@ ul.damage_calculation {
 }
 
 #front_train_battle {
-    background: url(/media/front_train_battle.png) left no-repeat;
+    background: url(http://oiawesome99.deviantart.com/art/Front-Train-Battle-441140690) left no-repeat;
 }
 
 #front_train_battle li {
@@ -217,7 +216,7 @@ ul.damage_calculation {
 }
 
 #front_participate {
-    background: url(/media/front_participate.png) left no-repeat;
+    background: url(http://oiawesome99.deviantart.com/art/Front-Participate-441140406) left no-repeat;
 }
 
 #front_participate li {
