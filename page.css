@@ -21,7 +21,7 @@ a.nohover:link:hover, a.nohover:visited:hover {
 h1 {
     font: bold 1.75em "Trebuchet MS";
     line-height: 23px;
-    background: url(/media/koffing.gif) no-repeat left;
+    background: url(http://img2.wikia.nocookie.net/__cb20101017030202/pokemon/images/1/15/380.gif) no-repeat left;
     padding: 0 0 0 35px;
     letter-spacing: .05em;
     margin: 1em 0;
@@ -140,7 +140,7 @@ ul.damage_calculation {
 /* Top welcome message */
 
 #front_top {
-    background: url(/media/koffing.gif) left center no-repeat;
+    background: url(http://img2.wikia.nocookie.net/__cb20101017030202/pokemon/images/1/15/380.gif) left center no-repeat;
     padding: 0 0 0 26px;
     margin-bottom: 1.5em;
 }
@@ -177,7 +177,7 @@ ul.damage_calculation {
 #front_links dt {
     height: 23px; 
     line-height: 23px;
-    background: url(/media/koffing.gif) left center no-repeat;
+    background: url(http://img2.wikia.nocookie.net/__cb20101017030202/pokemon/images/1/15/380.gif) left center no-repeat;
     padding: 0 0 0 26px; /* 26px width of koffing */
     margin: 1em 0 .3em 0;
     font-size: 1.05em;
@@ -204,7 +204,7 @@ ul.damage_calculation {
 }
 
 #front_learn li {
-    background: url(/media/bullet_red.png) no-repeat left;
+    background: url(http://smogon.com/media/bullet_red.png) no-repeat left;
 }
 
 #front_train_battle {
@@ -212,7 +212,7 @@ ul.damage_calculation {
 }
 
 #front_train_battle li {
-    background: url(/media/bullet_blue.png) no-repeat left;
+    background: url(http://smogon.com/media/bullet_blue.png) no-repeat left;
 }
 
 #front_participate {
@@ -220,7 +220,7 @@ ul.damage_calculation {
 }
 
 #front_participate li {
-    background: url(/media/bullet_green.png) no-repeat left;
+    background: url(http://smogon.com/media/bullet_green.png) no-repeat left;
 }
 
 /* Right pane, news */
@@ -228,7 +228,7 @@ ul.damage_calculation {
 #front_news h1 {
     position: relative;
     padding: 0 0 0 53px;
-    background: url(/media/news.png) no-repeat;
+    background: url(http://smogon.com/media/news.png) no-repeat;
     height: 24px;
     line-height: 24px;
 }
@@ -239,7 +239,7 @@ ul.damage_calculation {
 
 #front_news .modified {
     text-align: left;
-    background: url(/media/pencil.png) no-repeat left;
+    background: url(http://smogon.com/media/pencil.png) no-repeat left;
     padding-left: 20px;
     height: 16px;
     line-height: 16px;
@@ -361,7 +361,7 @@ table.sortable .a td, table.sortable tr.odd td  {
 /* jQuery Table Sorting */
 
 table.sortable tr .header {
-    background-image: url(/media/bg.gif) ;
+    background-image: url(http://smogon.com/media/bg.gif) ;
     background-repeat: no-repeat ;
     background-position: center right;
     cursor: pointer;
@@ -369,11 +369,11 @@ table.sortable tr .header {
 }
 
 table.sortable tr .headerSortUp {
-    background-image: url(/media/asc.gif);
+    background-image: url(http://smogon.com/media/asc.gif);
 } 
 
 table.sortable thead tr .headerSortDown {
-    background-image: url(/media/desc.gif);
+    background-image: url(http://smogon.com/media/desc.gif);
 }
 
 /***************************************/
@@ -386,7 +386,7 @@ table.info {
 }
 
 table.info th {
-    background: url(/media/infoheader.png) repeat-x;
+    background: url(http://smogon.com/media/infoheader.png) repeat-x;
     line-height: 25px;
     text-align: left;
     padding: 0 0 0 .7em;
@@ -461,21 +461,21 @@ span.error, div.error, span.notice, div.notice {
 
 /* Currently unused... do something with this */
 .success {
-    background: #8CFF66 url(/media/success.png) no-repeat 5px;
+    background: #8CFF66 url(http://smogon.com/media/success.png) no-repeat 5px;
     padding: 5px 0 5px 25px;
 }
 
 ul.error {
-    background: #FF8C66 url(/media/error.png) no-repeat 5px;  
+    background: #FF8C66 url(http://smogon.com/media/error.png) no-repeat 5px;  
 }
 
 span.error, div.error {
-    background: url(/media/error.png) no-repeat 5px;
+    background: url(http://smogon.com/media/error.png) no-repeat 5px;
     color: #c00;
 }
 
 span.notice, div.notice {
-    background: url(/media/notice.png) no-repeat 5px;
+    background: url(/http://smogon.commedia/notice.png) no-repeat 5px;
     color: #CC6600;
 }
 
