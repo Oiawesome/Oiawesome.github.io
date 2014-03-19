@@ -13,13 +13,13 @@ All other definitions should be relocated to page.css.
 html {
     margin: 0;
     padding: 0;
-    background: #6363b0 url(/media/bg.png) repeat-x;
+    background: #6363b0 url(http://smogon.com/media/bg.png) repeat-x;
 }
 
 body {
     font: 13px Verdana, sans-serif; /* See IE fixes below. */
     color: #000;
-    background: #fff url(/media/bg_top.png) repeat-x;
+    background: #fff url(http://smogon.com/media/bg_top.png) repeat-x;
     padding: 5px 15px;
     margin: 0 15px;
     border-width: 0 1px;
@@ -81,7 +81,7 @@ img {
     position: relative;
     height: 33px;
     overflow: hidden;
-    background: #fff url(/media/header_island_bg.png);
+    background: #fff url(http://smogon.com/media/header_island_bg.png);
     top: 2px;
     margin-bottom: 17px;
 }
@@ -105,7 +105,7 @@ img {
 #about {
     float: left;
     padding-left: 16px;
-    background: url(/media/header_island_left.png) left top no-repeat;
+    background: url(http://smogon.com/media/header_island_left.png) left top no-repeat;
 }
 
 #search {
@@ -125,7 +125,7 @@ img {
 #search_help {
     float: right;
     padding-right: 16px;
-    background: url(/media/header_island_right.png) right top no-repeat;
+    background: url(http://smogon.com/media/header_island_right.png) right top no-repeat;
 }
 
 /***************************************/
@@ -218,7 +218,7 @@ and #content is the right side. The table is called #splitter.
     margin-left: -.7em; /* Push the arrow back a little bit */
     padding-left: 20px; /* Make room for arrow */
     margin-right: 20px; /* But don't hog right border */
-    background: url(/media/go_arrow.png) no-repeat left;
+    background: url(http://smogon.com/media/go_arrow.png) no-repeat left;
     white-space: nowrap;
     zoom: 1; /* IE screws up position without this */
 }
