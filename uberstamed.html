@@ -1,0 +1,378 @@
+<html lang="en-US" dir="ltr" class="redesign "><head prefix="og: http://ogp.me/ns#"><script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script type="text/javascript" async="" src="//cdn3.optimizely.com/js/geo.js"></script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <script>(function(d) { d.className = d.className.replace(/\bno-js/, ''); })(document.documentElement);</script>
+          <script src="//cdn.optimizely.com/js/237572123.js"></script>
+  
+    <title>Kalos OM Palace</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <link rel="home" href="/en-US/">
+  <link rel="copyright" href="#copyright">
+
+  <link rel="stylesheet" href="//mozorg.cdn.mozilla.net/media/css/tabzilla-min.css">
+              <link rel="stylesheet" media="all" href="https://developer.cdn.mozilla.net/media/css/mdn-min.css?build=3791b61">
+      
+    <link rel="stylesheet" media="all" href="https://developer.cdn.mozilla.net/media/css/wiki-min.css?build=3791b61">
+
+          <link rel="stylesheet" type="text/css" href="/en-US/docs/Template:CustomCSS?raw=1">
+    
+        
+  <!-- common social tags -->
+    <meta property="og:type" content="website">
+  <meta property="og:image" content="https://developer.mozilla.org/media/redesign/img/opengraph-logo.png">
+  <meta property="og:site_name" content="Mozilla Developer Network">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:image" content="https://developer.mozilla.org/media/redesign/img/opengraph-logo.png">
+  <meta name="twitter:site" content="@NewOnMDN">
+  <meta name="twitter:creator" content="@NewOnMDN">
+
+  <link rel="search" type="application/opensearchdescription+xml" href="https://developer.mozilla.org/en-US/search/xml" title="Mozilla Developer Network">
+
+  <!-- third-generation iPad with high-resolution Retina display: -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://developer.cdn.mozilla.net/media/redesign/img/favicon144.png">
+  <!-- iPhone with high-resolution Retina display: -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://developer.cdn.mozilla.net/media/redesign/img/favicon114.png">
+  <!-- first- and second-generation iPad: -->
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://developer.cdn.mozilla.net/media/redesign/img/favicon72.png">
+  <!-- non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+  <link rel="apple-touch-icon-precomposed" href="https://developer.cdn.mozilla.net/media/redesign/img/favicon57.png">
+  <!-- basic favicon -->
+  <link rel="shortcut icon" href="https://developer.cdn.mozilla.net/media/redesign/img/favicon32.png">
+
+  <!--[if IE]>
+  <meta http-equiv="imagetoolbar" content="no">
+  <script src="https://developer.cdn.mozilla.net/media/js/libs/html5.js"></script>
+  <![endif]-->
+
+    <link rel="alternate" type="application/json" href="/en-US/docs/Web/Guide/CSS/CSS_Image_Sprites$json">
+  <link rel="canonical" href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/CSS_Image_Sprites">
+
+            <link rel="alternate" hreflang="zh-CN" href="/zh-CN/docs/Web/Guide/CSS/CSS_Image_Sprites" title="CSS 雪碧图">
+      
+  <!-- document-specific social tags -->
+  <meta property="og:title" content="CSS Image Sprites">
+  <meta property="og:url" content="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/CSS_Image_Sprites">
+  <meta name="twitter:url" content="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/CSS_Image_Sprites">
+  <meta name="twitter:title" content="CSS Image Sprites">
+    <meta property="og:description" content="Image &quot;sprites&quot; are used in numerous web apps where multiple icons are used. Rather than include each icon as a.png image file, it is much more memory and bandwidth-friendly to send it as a single image.">
+  <meta name="description" content="Image &quot;sprites&quot; are used in numerous web apps where multiple icons are used. Rather than include each icon as a.png image file, it is much more memory and bandwidth-friendly to send it as a single image.">
+  <meta name="twitter:description" content="Image &quot;sprites&quot; are used in numerous web apps where multiple icons are used. Rather than include each icon as a.png image file, it is much more memory and bandwidth-friendly to send it as a single image.">
+  
+      <script type="text/javascript">
+  // http://cfsimplicity.com/61/removing-analytics-clutter-from-campaign-urls
+  var removeUtms  =   function(){
+      var location = window.location;
+      if (location.hash.indexOf('utm') != -1) {
+          var anchor = location.hash.match(/#(?!utm)[^&]+/);
+          anchor  =   anchor ? anchor[0] : '';
+          if(!anchor && window.history.replaceState){
+              history.replaceState({}, '', location.pathname + location.search);
+          } else {
+              location.hash = anchor;
+          }
+      }
+  };
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36116321-5'],
+            ['_setAllowAnchor', true],
+            ['_setCustomVar', 8, 'docs navigator', 'Yes', 1],
+            ['_trackPageview']);
+  _gaq.push(removeUtms);
+
+  
+  (function(a, d) {
+    var ga = d.createElement(a); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == d.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = d.getElementsByTagName(a)[0]; s.parentNode.insertBefore(ga, s);
+  })('script', document);
+
+</script>
+  <script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script><link type="text/css" rel="stylesheet" href="https://developer.cdn.mozilla.net/media/css/syntax-prism-min.css"></head>
+<body data-slug="Web/Guide/CSS/CSS_Image_Sprites" contextmenu="edit-history-menu" class="html-ltr document  "><div id="tabzilla-panel" class="tabzilla-closed" tabindex="-1">  <div id="tabzilla-contents">    <div id="tabzilla-promo">      <div class="snippet" id="tabzilla-promo-fxos">        <a href="https://www.mozilla.org/firefox/os/?icn=tabz">          <h4>Look ahead</h4>          <p>Learn all about Firefox OS »</p>        </a>      </div>    </div>    <div id="tabzilla-nav">      <ul>        <li><h2>Mozilla</h2>          <div>            <ul>              <li><a href="https://www.mozilla.org/mission/?icn=tabz">Mission</a></li>              <li><a href="https://www.mozilla.org/about/?icn=tabz">About</a></li>              <li><a href="https://www.mozilla.org/projects/?icn=tabz">Projects</a></li>              <li><a href="https://support.mozilla.org/?icn=tabz">Support</a></li>              <li><a href="https://developer.mozilla.org/?icn=tabz">Developer Network</a></li>            </ul>          </div>        </li>        <li><h2>Products</h2>          <div>            <ul>              <li><a href="https://www.mozilla.org/firefox/?icn=tabz">Firefox</a></li>              <li><a href="https://www.mozilla.org/thunderbird/?icn=tabz">Thunderbird</a></li>              <li><a href="https://www.mozilla.org/firefox/os/?icn=tabz">Firefox OS</a></li>            </ul>          </div>        </li>        <li><h2>Innovations</h2>          <div>            <ul>              <li><a href="https://webmaker.org/?icn=tabz">Webmaker</a></li>              <li><a href="https://www.mozilla.org/research/?icn=tabz">Research</a></li>            </ul>          </div>        </li>        <li><h2>Get Involved</h2>          <div>            <ul>              <li><a href="https://www.mozilla.org/contribute/?icn=tabz">Volunteer</a></li>              <li><a href="https://www.mozilla.org/en-US/about/careers.html?icn=tabz">Careers</a></li>              <li><a href="https://www.mozilla.org/en-US/about/mozilla-spaces/?icn=tabz">Find us</a></li>              <li><a href="https://sendto.mozilla.org/page/contribute/EOYFR2013-newdefault?icn=tabz&amp;source=tabzilla_textlink" class="donate">Donate</a></li>              <li><a href="https://www.mozilla.org/about/partnerships/?icn=tabz">Partner</a></li>            </ul>          </div>        </li>        <li id="tabzilla-search">          <a href="https://www.mozilla.org/community/directory.html?icn=tabz">Website Directory</a>          <form title="Search Mozilla sites" role="search" action="https://www.google.com/cse">            <input type="hidden" value="002443141534113389537:ysdmevkkknw" name="cx">            <input type="hidden" value="FORID:0" name="cof">            <label for="q">Search</label>            <input type="search" placeholder="Search" id="q" name="q">          </form>        </li>      </ul>    </div>  </div></div>
+
+  <script type="text/javascript">
+    (function(){
+  var FLAGS = {
+    'derby_closed': true,'ga_outbound_links': true,'jquery_upgrade': false,'kumaediting': false,'page_move': false,'search_doc_navigator': true,'top_contributors': false
+    },
+    SWITCHES = {
+    'wiki_error_on_delete': false,'wiki_force_immediate_rendering': true
+    },
+    SAMPLES = {
+    
+    };
+  window.waffle = {
+    "flag_is_active": function waffle_flag(flag_name) {
+      
+      return !!FLAGS[flag_name];
+    },
+    "switch_is_active": function waffle_switch(switch_name) {
+      
+      return !!SWITCHES[switch_name];
+    },
+    "sample_is_active": function waffle_sample(sample_name) {
+      
+      return !!SAMPLES[sample_name];
+    },
+    "FLAGS": FLAGS,
+    "SWITCHES": SWITCHES,
+    "SAMPLES": SAMPLES
+  };
+})();
+
+      // This represents the site configuration
+  window.mdn = {
+    build: '3791b61',
+    // Properties and settings for CKEditor will go here
+    ckeditor: {},
+    // Feature test results and methods will be placed here
+    features: {},
+    // Ensures gettext always returns something, is always set
+    gettext: function(x) { return x; },
+    // The path to media (images, CSS, JS) in MDN
+    mediaPath: 'https://developer.cdn.mozilla.net/media/',
+    // Wiki-specific settings will be placed here
+    wiki: {
+      autosuggestTitleUrl: '/en-US/docs/get-documents'
+    }
+  };
+</script>
+  
+
+  
+  <ul id="nav-access">
+    <li><a href="#content">Skip to main content</a></li>
+    <li><a id="skip-language" href="#language">Select language</a></li>
+          <li><a href="#q" id="skip-search">Skip to search</a></li>
+      </ul>
+
+  <!-- Header -->
+  <header id="main-header"><div class="center">
+
+    <div class="clear header-login">
+      
+              <ul class="user-state signed-out">
+    <li class="user-signin menu">
+    <form class="browserid" action="/en-US/users/browserid_verify" method="POST">
+        <input id="next" name="next" type="hidden" value="/en-US/docs/Web/Guide/CSS/CSS_Image_Sprites">
+        <input required="required" type="hidden" name="assertion" id="id_assertion">
+                
+          <a href="#" class="persona-button persona-login persona-loaded" data-next="/en-US/docs/Web/Guide/CSS/CSS_Image_Sprites">
+            
+            
+          </a>
+
+      </form>
+    </li>
+  </ul>
+          </div>
+
+    <div><img src="http://i.imgur.com/ATO1sba.png"></div>
+
+    <nav id="main-nav" role="navigation" class=""><ul><li style=""><a href="/en-US/docs/Zones">Learn<i aria-hidden="true" class="icon-caret-down"></i></a>
+
+        <div class="submenu submenu-single" id="nav-zones-submenu" aria-hidden="true" style="z-index: 99998; display: none;">
+          <div class="submenu-column">
+            <ul>
+              <li style=""><a href="/en-US/Add-ons">OM Analysis</a></li>
+              <li><a href="/en-US/docs/Apps">Articles(coming soon)</a></li>
+              <li><a href="/en-US/docs/Firefox">OM Hub(coming soon)</a></li>
+              <li><a href="/en-US/Marketplace">Tournaments(coming soon)</a></li>
+            </ul>
+          </div>
+        <button class="submenu-close transparent">                        <span class="offscreen">Close submenu</span>                        <i aria-hidden="true" class="icon-remove-sign"></i>                    </button></div>
+      </li><li style=""><a href="/en-US/docs/Web">Train &amp; Battle<i aria-hidden="true" class="icon-caret-down"></i></a>
+
+        <div class="submenu" id="nav-platform-submenu" aria-hidden="true" style="z-index: 99998; display: none;">
+          <div class="submenu-column">
+            <ul>
+              <li><a href="/en-US/docs/Web/HTML">Showdown</a></li>
+              <li><a href="/en-US/docs/Web/CSS">Showdown Damage Calc</a></li>
+              <li><a href="/en-US/docs/Web/JavaScript">OM Minitours (Audiosurfer)</a></li>
+              <li><a href="/en-US/docs/Web/Guide/Graphics">BH BiWeekly Mini Tour</a></li>
+              <li><a href="/en-US/docs/Web/API">AAA Mini Mega Tour</a></li>
+              <li><a href="/en-US/Apps">BH Mentoring Program</a></li>
+            </ul>
+          </div>
+        <button class="submenu-close transparent">                        <span class="offscreen">Close submenu</span>                        <i aria-hidden="true" class="icon-remove-sign"></i>                    </button></div>
+      </li><li style=""><a href="/en-US/docs/Tools">Forums</a></li><li style=""><a href="/en-US/demos/">Smogon IRC</a></li><li style=""></li><li class="main-nav-search"><form action="/en-US/search" method="get" role="search">
+        
+      </form></li></ul></nav>
+  </div></header>
+
+  <!-- Content will go here -->
+  <main id="content" role="main"><div class="center clear">
+  
+   <!-- end is_zone -->
+
+
+
+    <div class="wiki-main-content"><div class="center">
+
+            <div class="article-meta">
+        <!-- action buttons -->
+                  <ul class="page-buttons"><li>
+
+        <div class="submenu" id="languages-menu-submenu" aria-hidden="true" style="z-index: 99998; display: none;">
+          <div class="submenu-column">
+            <ul id="translations">
+                                                <li><bdi><a rel="internal" href="/zh-CN/docs/Web/Guide/CSS/CSS_Image_Sprites" title="CSS 雪碧图">中文 (简体)</a></bdi></li>
+                              
+                              <li><a href="/en-US/docs/Web/Guide/CSS/CSS_Image_Sprites$locales">Add a translation</a></li>
+                          </ul>
+          </div>
+        <button class="submenu-close transparent">                        <span class="offscreen">Close submenu</span>                        <i aria-hidden="true" class="icon-remove-sign"></i>                    </button></div></li><li class="page-buttons-edit"></li><li>
+
+        <div class="submenu" id="advanced-menu-submenu" aria-hidden="true" style="z-index: 99998; display: none;">
+          <!-- this page -->
+          <div class="submenu-column">
+            <div class="title">Advanced</div>
+            <ul>
+                <li><a href="/en-US/docs/Web/Guide/CSS/CSS_Image_Sprites$history">History</a></li>
+                                                                
+                
+                                
+                                                                <li class="page-print"><a href="#" onclick="return window.print();" title="Print page">Print this page</a></li>
+            </ul>
+          </div>
+        <button class="submenu-close transparent">                        <span class="offscreen">Close submenu</span>                        <i aria-hidden="true" class="icon-remove-sign"></i>                    </button></div>
+  </li></ul>
+
+        <!-- crumbs -->
+          <nav class="crumbs" role="navigation"><ol xmlns:v="http://rdf.data-vocabulary.org/#" aria-label="breadcrumbs">
+    <li typeof="v:Breadcrumb"><a href="/kalos" rel="v:url" property="v:title">Kalos OM Palace</a></li>
+  <li class="crumb" typeof="v:Breadcrumb" property="v:title">Front Page</li>
+  </ol></nav>
+      </div>
+
+      <!-- heading -->
+      <div id="wiki-document-head" class="document-head">
+                  <span class="from-search-previous-box">
+            <a href="" class="button from-search-previous only-icon"><i aria-hidden="true" class="icon-chevron-left"></i></a>
+          </span>
+          <span class="hidden">
+            <a href="" class="from-search-navigate"><span class="from-search-navigate-up"><i aria-hidden="true" class="icon-double-angle-up"></i></span><span class="from-search-navigate-down"><i aria-hidden="true" class="icon-double-angle-down"></i></span></a>
+          </span>
+          <div class="from-search-toc hidden"><ol></ol></div>
+          <span class="from-search-next-box">
+            <a class="button from-search-next only-icon"><i aria-hidden="true" class="icon-chevron-right"></i></a>
+          </span>
+                  <h1>Latest News</h1>
+        
+          
+      </div>
+      
+      <!-- start the main content container -->
+        <div id="wiki-column-container" class="wiki-right-present wiki-left-closed wiki-left-none">
+
+          
+          <!-- content row with three strips -->
+          <div class="column-container column-container-reverse">
+
+                          <!-- TOC, approvals, etc -->
+             
+                            </div>
+            
+            <!-- just the article content -->
+                                      
+            <!-- center: main article content -->
+            <div id="wiki-content" class="column-main wiki-column text-content">
+
+              
+              
+                                                                          
+              <!-- just the article content -->
+              <article id="wikiArticle">
+                                                      <h2 id="Introduction">Ubers Tamed</h2>
+<p><ul><li><img src="http://www.serebii.net/pokedex-xy/icon/094-m.png" alt="094-m.png" />Mega Gengar</ul><br />
+<strong>Abilities: </strong>Prankster<br />
+<strong>Stats: </strong>60 / <strong>95 </strong>/ 80 / <strong>150</strong> / 85 / <strong>120 (shifted BST 30 points to atk in order to keep mega evo BST rule)</strong><br />
+<ul><li><strong><img src="http://www.serebii.net/pokedex-xy/icon/382.png" alt="382.png" /> </strong>Kyogre</ul><br />
+<strong>Stats: </strong>100 / 100 / 90 / <strong>120 </strong>/ <strong>100 </strong>/ 90<br />
+<strong>Movepool: -Calm Mind, - Water Spout</strong><br />
+<ul><li><img src="http://www.serebii.net/pokedex-xy/icon/150.png" alt="150.png" />Mewtwo-Normal</ul><br />
+<strong>Stats: 90 </strong><span style="font-size: 2px;">/ </span><strong>95 </strong><span style="font-size: 2px;">/ </span><strong>106 </strong><span style="font-size: 2px;">/ </span><strong>130 </strong><span style="font-size: 2px;">/ </span><strong>80</strong><span style="font-size: 2px;"> / </span><strong>106</strong><br />
+<strong><img src="http://www.serebii.net/pokedex-xy/icon/150-my.png" alt="150-my.png" /></strong>Mega-Mewtwo-Y<br />
+<strong>Stats: 90</strong><span style="font-size: 2px;"> / </span><strong>135 </strong><span style="font-size: 2px;">/ </span><strong>86 </strong><span style="font-size: 2px;">/ </span><strong>170 </strong><span style="font-size: 2px;">/ </span><strong>110 </strong><span style="font-size: 2px;">/ </span><strong>116</strong><img src="http://www.serebii.net/pokedex-xy/icon/150-mx.png" alt="150-mx.png" />Mega-Mewtwo-X<br />
+<strong>Stats: 90 </strong><span style="font-size: 2px;">/ </span><strong>170 </strong><span style="font-size: 2px;">/ </span><strong>96 </strong><span style="font-size: 2px;">/ </span><strong>130 </strong><span style="font-size: 2px;">/ </span><strong>90</strong><span style="font-size: 2px;"> / </span><strong>106</strong><span style="font-size: 2px;">  </span><br />
+<ul><li><img src="http://www.serebii.net/pokedex-xy/icon/716.png" alt="716.png" /> Xerneas</ul><br />
+<strong>Stats: 100 </strong>/ <strong>100 </strong>/ <strong>90 </strong>/ <strong>115 </strong>/ <strong>75 </strong>/ <strong>95</strong><br />
+<ul><li><strong><img src="http://pldh.net/media/pokecons_action/493.gif" alt="493.gif" /> All FORMS</strong>- Arceus</ul><br />
+<strong>Stats: 100 </strong>/ <strong>100 </strong>/ <strong>100 </strong>/ <strong>100 </strong>/ <strong>100 </strong>/ <strong>100</strong><br />
+<ul><li><strong><img src="http://www.serebii.net/pokedex-xy/icon/257.png" alt="257.png" /></strong>Blaziken-Normal</ul><strong>Stats: </strong>80 / <strong>125 </strong>/ <strong>80 </strong>/ <strong>120 </strong>/ 70 / <strong>81  <br />
+Abilities: </strong>Blaze / Unburden<br />
+<strong><img src="http://www.serebii.net/pokedex-xy/icon/257-m.png" alt="257-m.png" /></strong>Mega-Blaziken:<br />
+<strong>Abilities:</strong> Vital Spirit<br />
+<strong>Stats:  </strong>80 / <strong>165</strong> / <strong>90</strong> / <strong>140</strong> / 80 / <strong>101 </strong>  <strong>     </strong><br />
+<ul><li><strong><img src="http://www.serebii.net/pokedex-xy/icon/484.png" alt="484.png" /></strong>Palkia</ul><strong>Stats: </strong>90 / <strong>100 </strong>/ <strong>90</strong> / <strong>130</strong> / 120 /<strong> </strong>100<br />
+<ul><li><strong><img src="http://www.serebii.net/pokedex-xy/icon/717.png" alt="717.png" /></strong>Yveltal</ul><strong>Stats: 110 </strong>/ <strong>105</strong> / <strong>90</strong> / <strong>120</strong> / <strong>85</strong> / 99<span style="font-size: 2px;">  </span><br />
+<ul><li></ul></p>                                  </article>
+
+                              <!-- attachments list -->
+                
+                <!-- contributors -->
+                <div class="wiki-block contributors">
+                  <h2 class="offscreen">Document Tags and Contributors</h2>
+                                    <!-- tags if present -->
+                  <div class="tag-attach-list tags contributor-sub">
+                    
+                    
+                  </div>
+                                    <div class="contributor-sub"> <i aria-hidden="true" class="icon-group"></i><strong>Contributors to this page:</strong> <a href="/en-US/profiles/i80and">Oiawesome</a></div>                                      <div class="contributor-sub">
+                      <i aria-hidden="true" class="icon-time"></i><strong>Last updated by:</strong>
+                      <a href="/en-US/profiles/Jeremie">Oiawesome</a>,
+                      <time datetime="2014-03-03T05:45:02-08:00">April 18, 2014 6:45:02 AM</time>
+                    </div>
+                                  </div>
+                          </div>
+
+                      </div>
+        </div>
+      </div>
+    </div> <!-- ends "main-content" -->
+
+  <menu type="context" id="edit-history-menu">
+    <menuitem data-action="$edit" label="Edit page"></menuitem>
+    <menuitem data-action="$history" label="View page history"></menuitem>
+  </menu>
+  </div></main>
+
+  <!-- Footer -->
+  <footer><div class="center">
+    <div class="column-container">
+      <div class="column-strip">
+                        <form class="languages go" method="get" action="/en-US/docs/Web">
+      
+      
+      <noscript>&lt;button type="submit"&gt;Go&lt;/button&gt;</noscript>
+    </form>
+                </div>
+    </div>
+  </div></footer>
+
+  <!-- site js -->
+    <script src="/en-US/jsi18n/build:3791b61"></script>
+        <!--[if lte IE 8]><script src="/media/redesign/js/libs/selectivizr-1.0.2/selectivizr-build.js?build=3791b61"></script><![endif]-->
+
+          <script src="https://developer.cdn.mozilla.net/media/js/jquery1-min.js?build=3791b61"></script>
+    
+    <script src="https://developer.cdn.mozilla.net/media/js/main-min.js?build=3791b61"></script>
+
+          <script>
+        mdn.analytics.trackOutboundLinks(document.body);
+      </script>
+    
+    <script src="//mozorg.cdn.mozilla.net/en-US/tabzilla/tabzilla.js" async=""></script>
+
+          <script src="https://developer.cdn.mozilla.net/media/js/wiki-min.js?build=3791b61"></script><script data-manual="" async="" src="https://developer.cdn.mozilla.net/media/js/syntax-prism-min.js"></script>
+      
+      <script type="text/javascript">
+    (function($) {
+      $('.from-search-toc').mozSearchResults('');
+    })(jQuery);
+  </script>
+  
+  <script type="text/javascript">if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.src=(("http:"===document.location.protocol)?"http:":"https:")+"//"+"js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","beacon-3.newrelic.com","42869b6ed3","3172075","b1QHMUtVDRdSW0YKXVYeIxBXVxcNXFYdFFtTWEsTUFEUFwlcXQBHVVQLEQ==",1,274,new Date().getTime(),"","","","",""]);</script>
+<script type="text/javascript" src="https://js-agent.newrelic.com/nr-100.js"></script><script type="text/javascript" src="https://beacon-3.newrelic.com/1/42869b6ed3?a=3172075&amp;be=615&amp;qt=1&amp;ap=274&amp;dc=221&amp;fe=697&amp;to=b1QHMUtVDRdSW0YKXVYeIxBXVxcNXFYdFFtTWEsTUFEUFwlcXQBHVVQLEQ%3D%3D&amp;v=42&amp;jsonp=NREUM.setToken&amp;perf=%7B%22timing%22%3A%7B%22of%22%3A1397825721017%2C%20%22n%22%3A0%2C%20%22u%22%3A506%2C%20%22ue%22%3A506%2C%20%22dl%22%3A525%2C%20%22di%22%3A837%2C%20%22ds%22%3A837%2C%20%22de%22%3A856%2C%20%22dc%22%3A1312%2C%20%22l%22%3A1312%2C%20%22le%22%3A1314%2C%20%22f%22%3A0%2C%20%22dn%22%3A0%2C%20%22dne%22%3A0%2C%20%22c%22%3A0%2C%20%22ce%22%3A0%2C%20%22rq%22%3A1%2C%20%22rp%22%3A497%2C%20%22rpe%22%3A512%7D%2C%20%22navigation%22%3A%7B%7D%7D"></script></body></html>
