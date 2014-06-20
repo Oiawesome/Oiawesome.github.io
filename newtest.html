@@ -1,0 +1,142 @@
+<html lang="en-US" dir="ltr" class="redesign "><head prefix="og: http://ogp.me/ns#"><script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script type="text/javascript" async="" src="//cdn3.optimizely.com/js/geo.js"></script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <script>(function(d) { d.className = d.className.replace(/\bno-js/, ''); })(document.documentElement);</script>
+          <script src="//cdn.optimizely.com/js/237572123.js"></script>
+  
+    <title>Kalos OM Palace</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <link rel="home" href="/en-US/">
+  <link rel="copyright" href="#copyright">
+
+  <link rel="stylesheet" href="//mozorg.cdn.mozilla.net/media/css/tabzilla-min.css">
+              <link rel="stylesheet" media="all" href="https://github.com/Oiawesome/Oiawesome.github.io/blob/master/testnew.css">
+      
+    <link rel="stylesheet" media="all" href="https://github.com/Oiawesome/Oiawesome.github.io/blob/master/testnew.css">
+    
+          <link rel="stylesheet" type="text/css"https://github.com/Oiawesome/Oiawesome.github.io/blob/master/testnew.css">
+    
+        
+  <!-- third-generation iPad with high-resolution Retina display: -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://www.serebii.net/pokedex-xy/icon/003.png">
+  <!-- iPhone with high-resolution Retina display: -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://www.serebii.net/pokedex-xy/icon/003.png">
+  <!-- first- and second-generation iPad: -->
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://www.serebii.net/pokedex-xy/icon/003.png">
+  <!-- non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+  <link rel="apple-touch-icon-precomposed" href="http://www.serebii.net/pokedex-xy/icon/003.png">
+  <!-- basic favicon -->
+  <link rel="shortcut icon" href="http://www.serebii.net/pokedex-xy/icon/003.png">
+
+  <!--[if IE]>
+  <meta http-equiv="imagetoolbar" content="no">
+  <script src="https://developer.cdn.mozilla.net/media/js/libs/html5.js"></script>
+  <![endif]-->
+
+    <link rel="alternate" type="application/json" href="/en-US/docs/Web/Guide/CSS/CSS_Image_Sprites$json">
+  <link rel="canonical" href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/CSS_Image_Sprites">
+
+            <link rel="alternate" hreflang="zh-CN" href="/zh-CN/docs/Web/Guide/CSS/CSS_Image_Sprites" title="CSS 雪碧图">
+      
+  <!-- document-specific social tags -->
+  <meta property="og:title" content="CSS Image Sprites">
+  <meta property="og:url" content="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/CSS_Image_Sprites">
+  <meta name="twitter:url" content="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/CSS_Image_Sprites">
+  <meta name="twitter:title" content="CSS Image Sprites">
+    <meta property="og:description" content="Image &quot;sprites&quot; are used in numerous web apps where multiple icons are used. Rather than include each icon as a.png image file, it is much more memory and bandwidth-friendly to send it as a single image.">
+  <meta name="description" content="Image &quot;sprites&quot; are used in numerous web apps where multiple icons are used. Rather than include each icon as a.png image file, it is much more memory and bandwidth-friendly to send it as a single image.">
+  <meta name="twitter:description" content="Image &quot;sprites&quot; are used in numerous web apps where multiple icons are used. Rather than include each icon as a.png image file, it is much more memory and bandwidth-friendly to send it as a single image.">
+  
+      <script type="text/javascript">
+  // http://cfsimplicity.com/61/removing-analytics-clutter-from-campaign-urls
+  var removeUtms  =   function(){
+      var location = window.location;
+      if (location.hash.indexOf('utm') != -1) {
+          var anchor = location.hash.match(/#(?!utm)[^&]+/);
+          anchor  =   anchor ? anchor[0] : '';
+          if(!anchor && window.history.replaceState){
+              history.replaceState({}, '', location.pathname + location.search);
+          } else {
+              location.hash = anchor;
+          }
+      }
+  };
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36116321-5'],
+            ['_setAllowAnchor', true],
+            ['_setCustomVar', 8, 'docs navigator', 'Yes', 1],
+            ['_trackPageview']);
+  _gaq.push(removeUtms);
+
+  
+  (function(a, d) {
+    var ga = d.createElement(a); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == d.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = d.getElementsByTagName(a)[0]; s.parentNode.insertBefore(ga, s);
+  })('script', document);
+
+</script>
+  <script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script><link type="text/css" rel="stylesheet" href="https://developer.cdn.mozilla.net/media/css/syntax-prism-min.css"></head>
+<body data-slug="Web/Guide/CSS/CSS_Image_Sprites" contextmenu="edit-history-menu" class="html-ltr document  "><div id="tabzilla-panel" class="tabzilla-closed" tabindex="-1">  <div id="tabzilla-contents">    <div id="tabzilla-promo">      <div class="snippet" id="tabzilla-promo-fxos">        <a href="https://www.mozilla.org/firefox/os/?icn=tabz">          <h4>Look ahead</h4>          <p>Learn all about Firefox OS »</p>        </a>      </div>    </div>    <div id="tabzilla-nav">      <ul>        <li><h2>Mozilla</h2>          <div>            <ul>              <li><a href="https://www.mozilla.org/mission/?icn=tabz">Mission</a></li>              <li><a href="https://www.mozilla.org/about/?icn=tabz">About</a></li>              <li><a href="https://www.mozilla.org/projects/?icn=tabz">Projects</a></li>              <li><a href="https://support.mozilla.org/?icn=tabz">Support</a></li>              <li><a href="https://developer.mozilla.org/?icn=tabz">Developer Network</a></li>            </ul>          </div>        </li>        <li><h2>Products</h2>          <div>            <ul>              <li><a href="https://www.mozilla.org/firefox/?icn=tabz">Firefox</a></li>              <li><a href="https://www.mozilla.org/thunderbird/?icn=tabz">Thunderbird</a></li>              <li><a href="https://www.mozilla.org/firefox/os/?icn=tabz">Firefox OS</a></li>            </ul>          </div>        </li>        <li><h2>Innovations</h2>          <div>            <ul>              <li><a href="https://webmaker.org/?icn=tabz">Webmaker</a></li>              <li><a href="https://www.mozilla.org/research/?icn=tabz">Research</a></li>            </ul>          </div>        </li>        <li><h2>Get Involved</h2>          <div>            <ul>              <li><a href="https://www.mozilla.org/contribute/?icn=tabz">Volunteer</a></li>              <li><a href="https://www.mozilla.org/en-US/about/careers.html?icn=tabz">Careers</a></li>              <li><a href="https://www.mozilla.org/en-US/about/mozilla-spaces/?icn=tabz">Find us</a></li>              <li><a href="https://sendto.mozilla.org/page/contribute/EOYFR2013-newdefault?icn=tabz&amp;source=tabzilla_textlink" class="donate">Donate</a></li>              <li><a href="https://www.mozilla.org/about/partnerships/?icn=tabz">Partner</a></li>            </ul>          </div>        </li>        <li id="tabzilla-search">          <a href="https://www.mozilla.org/community/directory.html?icn=tabz">Website Directory</a>          <form title="Search Mozilla sites" role="search" action="https://www.google.com/cse">            <input type="hidden" value="002443141534113389537:ysdmevkkknw" name="cx">            <input type="hidden" value="FORID:0" name="cof">            <label for="q">Search</label>            <input type="search" placeholder="Search" id="q" name="q">          </form>        </li>      </ul>    </div>  </div></div>
+
+<div class="sprite">
+        <img src="http://www.serebii.net/xy/pokemon/003.png" alt=" />
+</div>
+
+<div class="table_container">
+        <table>
+                <thead>
+                        <tr>
+                                <th>Stats</th>
+                        </tr>
+                        <tr>
+                                <th>HP</th>
+                                <th>Attack</th>
+                                <th>Defense</th>
+                                <th>Sp. Attack</th>
+                                <th>Sp. Defense</th>
+                                <th>Speed</th>
+                        </tr>
+                </thead>
+                <tbody>
+                        <tr>
+                                <td>Base Stats</td>
+                                <td>[HP Base]</td>
+                                <td>[Attack Base]</td>
+                                <td>[Defense Base]</td>
+                                <td>[Sp. Attack Base]</td>
+                                <td>[Sp. Defense Base]</td>
+                                <td>[Speed Base]</td>
+                        </tr>
+                        <tr>
+                                <td><em>Hindering Nature</em></td>
+                                <td>[HP Raw Stat 0 EVs - 252 EVs)]</td>
+                                <td>[Attack Raw Stat 0 EVs - 252 EVs)]</td>
+                                <td>[Defense Raw Stat 0 EVs - 252 EVs)]</td>
+                                <td>[Sp. Attack Raw Stat 0 EVs - 252 EVs)]</td>
+                                <td>[Sp. Defense Raw Stat 0 EVs - 252 EVs)]</td>
+                                <td>[Speed Raw Stat 0 EVs - 252 EVs)]</td>
+                        </tr>
+                        <tr>
+                                <td><em>Neutral Nature</em></td>
+                                <td>[HP Raw Stat 0 EVs - 252 EVs)]</td>
+                                <td>[Attack Raw Stat 0 EVs - 252 EVs)]</td>
+                                <td>[Defense Raw Stat 0 EVs - 252 EVs)]</td>
+                                <td>[Sp. Attack Raw Stat 0 EVs - 252 EVs)]</td>
+                                <td>[Sp. Defense Raw Stat 0 EVs - 252 EVs)]</td>
+                                <td>[Speed Raw Stat 0 EVs - 252 EVs)]</td>
+                        </tr>
+                        <tr>
+                                <td><em>Beneficial Nature</em></td>
+                                <td>[HP Raw Stat 0 EVs - 252 EVs)]</td>
+                                <td>[Attack Raw Stat 0 EVs - 252 EVs)]</td>
+                                <td>[Defense Raw Stat 0 EVs - 252 EVs)]</td>
+                                <td>[Sp. Attack Raw Stat 0 EVs - 252 EVs)]</td>
+                                <td>[Sp. Defense Raw Stat 0 EVs - 252 EVs)]</td>
+                                <td>[Speed Raw Stat 0 EVs - 252 EVs)]</td>
+                        </tr>
+                </tbody>
+        </table>
+</div></body></html>
