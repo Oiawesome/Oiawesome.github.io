@@ -44,8 +44,11 @@
                         <table>
                                 <thead>
                                         <tr id="header">
-                                                <th><img src="http://www.smogon.com/download/sprites/bw/628.png" alt="Ferrothorn" /></th>
-                                                <th id="title">Ferrothorn</th>
+                                                <th><img src="http://www.smogon.com/download/sprites/bw/380.png" alt="Latias" /></th>
+                                                <th id="title">Latias</th>
+                                                <ul>Written by Macargo 2</ br>
+                                                CSS by Jukain</ br>
+                                                HTML by Oiawesome</ul>
                                         </tr>
                                         <tr>
                                         <tr id="stats">
@@ -61,43 +64,76 @@
                                 <tbody>
                                         <tr>
                                                 <td>Base Stats</td>
-                                                <td>74</td>
-                                                <td>94</td>
-                                                <td>131</td>
-                                                <td>54</td>
-                                                <td>116</td>
-                                                <td>20</td>
+                                                <td>80</td>
+                                                <td>80</td>
+                                                <td>90</td>
+                                                <td>110</td>
+                                                <td>130</td>
+                                                <td>110</td>
                                         </tr>
                                         <tr>
                                                 <td><em>Hindering Nature</em></td>
-                                                <td>258 - 352</td>
-                                                <td>173 - 258</td>
-                                                <td>240 - 324</td>
-                                                <td>101 - 186</td>
-                                                <td>213 - 297</td>
-                                                <td>40 - 125</td>
+                                                <td>270 - 364</td>
+                                                <td>148 - 233</td>
+                                                <td>166 - 251</td>
+                                                <td>202 - 287</td>
+                                                <td>238 - 323</td>
+                                                <td>225 - 319</td>
                                         </tr>
                                         <tr>
                                                 <td><em>Neutral Nature</em></td>
-                                                <td>258 - 352</td>
-                                                <td>193 - 287</td>
-                                                <td>267 - 361</td>
-                                                <td>113 - 207</td>
-                                                <td>237 - 331</td>
-                                                <td>45 - 139</td>
+                                                <td>270 - 364</td>
+                                                <td>165 - 259</td>
+                                                <td>185 - 279</td>
+                                                <td>225 - 319</td>
+                                                <td>265 - 359</td>
+                                                <td>225 - 319</td>
                                         </tr>
                                         <tr>
                                                 <td><em>Beneficial Nature</em></td>
-                                                <td>258 - 352</td>
-                                                <td>212 - 315</td>
-                                                <td>293 - 397</td>
-                                                <td>124 - 227</td>
-                                                <td>260 - 364</td>
-                                                <td>49 - 152</td>
+                                                <td>270 - 364</td>
+                                                <td>181 - 284</td>
+                                                <td>203 - 306</td>
+                                                <td>247 - 350</td>
+                                                <td>291 - 394</td>
+                                                <td>247 - 350</td>
                                         </tr>
                                 </tbody>
                         </table>
-                </div>
+                <h2>Overview</h2>
+                <p>Blessed with excellent Speed, typing, and bulk, Latias is a true force to be reckoned with in the metagame. Due to its unique typing and access to reliable recovery, Latias is able to consistently check various Pokemon in the OU metagame, including Mega Charizard Y, Keldeo, and Rotom-W. Latias also sports a decent amount of offensive prowess which, while nowhere near the level of that of Latios, is still enough to deal a significant amount of damage to relatively bulky Pokemon such as Rotom-W. Due to the changed mechanics of Defog, Latias has now gained a new niche in the metagame as an offensive Defog user, facing competition from only Latios in this regard.</p>
+                <p></p>
+                <p>Blessed with excellent Speed, typing, and bulk, Latias is a true force to be reckoned with in the metagame. Due to its unique typing and access to reliable recovery, Latias is able to consistently check various Pokemon in the OU metagame, including Mega Charizard Y, Keldeo, and Rotom-W. Latias also sports a decent amount of offensive prowess which, while nowhere near the level of that of Latios, is still enough to deal a significant amount of damage to relatively bulky Pokemon such as Rotom-W. Due to the changed mechanics of Defog, Latias has now gained a new niche in the metagame as an offensive Defog user, facing competition from only Latios in this regard.</p>
+                <h3>Offensive Defog</h3>
+<p>name: Offensive Defog</ br>
+move 1: Defog</ br>
+move 2: Draco Meteor</ br>
+move 3: Healing Wish</ br>
+move 4: Thunderbolt / Psyshock</ br>
+ability: Levitate</ br>
+item: Life Orb</ br>
+nature: Timid</ br>
+evs: 252 SpA / 4 SpD / 252 Spe</p>
+               <h4>Moves</h4>
+               <p>Latias's high bulk and power make it an excellent Defog user on offensive teams. While Latios may appear to be a better candidate in this role due to its higher attacking stats, Latias differentiates itself with its greater bulk and Healing Wish. Draco Meteor serves as Latias's primary STAB attack due to its high Base Power and excellent neutral coverage. Healing Wish allows Latias to completely heal a weakened teammate once its job of removing entry hazards is done.</p>
+               <p></p>
+               <p>In the last slot, Thunderbolt is the best option as it hits key threats such as Mandibuzz, Azumarill, Skarmory, and Mega Charizard-Y for super effective damage. Psyshock can also be used, as it hits Mega Venusaur for super effective damage, while also hitting Fighting-types such as Terrakion and Conkeldurr. Hidden Power Fighting and Hidden Power Fire can be used as coverage moves, as the former allows Latias to OHKO Bisharp and deal a significant amount of damage to Tyranitar while the latter deals heavy damage to Ferrothorn and Mega Scizor. However, both of these moves are fairly weak and do not hit any other notable targets.</p>
+               <h4>Set Details</h4>
+               <p>Life Orb is used to give Latias a power boost to compensate for its only above-average Special Attack. This set also aims to apply offensive pressure when the situation calls for it, so maximized Special Attack and Speed with a Timid nature are required.</p>
+               <h4>Usage Tips</h4>
+               <p>The utility of Defog and Healing Wish allow Latias to function well at any point in the match. If a potential Pursuit trapper such as Bisharp or Aegislash is on the opponent's team, then Latias should attempt to double switch into a Pokemon that can threaten the Pursuit trapper or have these Pokemon eliminated before switching in. If Latias is using Healing Wish, then it can play more recklessly against Pursuit users by healing a weakened teammate after its job of removing entry hazards is done. Also, Latias should not attempt to use Defog if the opponent has a Pokemon with the ability Defiant.</p>
+               <p></p>
+               <p>If Latias is up against a Pursuit trapper or is at low health, it should generally use Healing Wish to heal weakened sweepers such as Mega Pinsir or Dragonite. Latias should also use Healing Wish late-game to heal a potentially weakened sweeper, allowing them to sweep with few, if any, repercussions.</p>
+               <h4>Team Options</h4>
+               <p>Pokemon that appreciate entry hazards being removed and Healing Wish's recovery are generally great partners for Latias. Examples include Talonflame, Dragonite, Mega Pinsir, Mega Charizard X, Mega Charizard Y, Mega Gyarados, and Belly Drum Azumarill. Heatran is a great offensive partner, as it can defeat Fairy- and Steel-types that generally give Latias trouble. Heatran also appreciates Healing Wish support due to its lack of reliable recovery. Scizor is a great partner due it having excellent defensive synergy with Latias and being able to provide it momentum with U-turn. Fighting-types such as Keldeo and Lucario can defeat common Pursuit users that give Latias trouble as well as pressure Steel-types such as Scizor and Ferrothorn, making them solid partners.</p>
+               <h3>Other Options</h3>
+               <p>Latias has many other viable options due to its excellent movepool. Roost can be used to allow Latias to more consistently check Pokemon such as Keldeo and Rotom-W, as well as replenish any health lost from Life Orb recoil. However, Latias loses its primary niche over Latios by using this move. Leftovers can be used to increase Latias's longevity, but it also makes Latias fairly weak and more prone to Pursuit users. A specially defensive set can be used, as Latias's excellent Special Defense allows it to check important threats such as Mega Charizard Y and Keldeo, and it has access to support moves such as Wish and Defog. However, a specially defensive set is more vulnerable to Pursuit users and threats such as Garchomp and Mega Charizard X, making it a mediocre option in most scenarios. A dual screens set can be used, as Latias's high Speed allows it to set up Light Screen and Reflect fairly quickly and then give a safe switch-in to sweepers such as Dragonite with Healing Wish. However, Defog cripples this strategy and a Dual Screens set is generally outclassed by Deoxys-S. Calm Mind can be used to turn Latias into a devastating sweeper; however, Calm Mind Latias is generally less effective than it was in the past due to the introduction of Fairy-types and a new slew of defensive threats.</p>
+               <h3>Checks and Counters</h3>
+               <p><b>Pursuit Users</b>: Tyranitar, Aegislash, Bisharp, and Scizor take little damage from a majority of Latias's moves due to their typing and can deal a significant amount of damage to, if not OHKO, Latias with Pursuit.</ br>
+               <b>Steel Types</b>:  Aegislash is an excellent counter to Latias, as it can threaten Latias with Shadow Ball and Pursuit trap it. Bisharp and Scizor are also very good checks for similar reasons, although they must watch out for the rare Hidden Power Fighting and Fire, respectively. In addition, Bisharp can deter Latias from using Defog due to Defiant giving it a +2 Attack boost. Mega Mawile resists Latias's STAB moves and can either revenge kill it with Sucker Punch or set up a free Swords Dance as Latias switches out. Klefki also resists Latias's STAB moves and can 2HKO it with Play Rough, allowing Klefki to set up Spikes later in the match. Heatran can either use Taunt on Latias, preventing it from using Defog and Healing Wish, or directly 2HKO it with a Choice Specs-boosted Flash Cannon.</ br>
+               <b>Fairy Types</b>:Mega Gardevoir, Sylveon, and Clefable are immune to Draco Meteor and take little damage from Psyshock. Mega Gardevoir and Sylveon can deal a significant amount of damage to Latias with Hyper Voice, whereas Clefable can either set up Calm Mind on Latias or deal a significant amount of damage to it with Moonblast.</ br>
+               <b>Revenge Killers</b>: Talonflame, Scizor, Aegislash, Bisharp, and Mamoswine can all revenge kill a weakened Latias with their respective priority moves. Mega Aerodactyl, Mega Absol, Tornadus-T, and Greninja can all outspeed and KO weakened Latias. Choice Scarf users such as Gardevoir, Garchomp, and Kyurem-B can OHKO Latias with their respective STAB moves.</p>
+               </div>
 
                 <!-- end html template -->
         </body>
