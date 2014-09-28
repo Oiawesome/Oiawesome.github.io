@@ -13,7 +13,9 @@ html, body {
 	padding:0px;
 }
 
-a { font-family: Verdana, Arial; color: #FFFFFF; text-decoration: underline; }
+p { font-family: Century Gothic, Arial; }
+
+a { font-family: Century Gothic, Arial; color: #FFFFFF; text-decoration: underline; }
 a:hover { color: #5685c4; text-decoration: underline; }
 
 form {
