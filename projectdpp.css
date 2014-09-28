@@ -13,7 +13,7 @@ html, body {
 	padding:0px;
 }
 
-p { font-family: Century Gothic, Arial; }
+p { font-family: Century Gothic, sans-serif; }
 
 a { font-family: Century Gothic, Arial; color: #FFFFFF; text-decoration: underline; }
 a:hover { color: #5685c4; text-decoration: underline; }
