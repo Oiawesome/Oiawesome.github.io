@@ -123,6 +123,52 @@ font-weight: bold;
 background-color: #FEFEFE;
 }
 
+                      p {
+                                font-family: Arial, Helvetica, sans-serif;
+                        }
+                        h1 {
+                                font-family: Arial, Helvetica, sans-serif;
+                        }
+                        h2 {
+                                font-family: Arial, Helvetica, sans-serif;
+                        }
+                        h3 {
+                                font-family: Arial, Helvetica, sans-serif;
+                        }
+                        h4 {
+                                font-family: Arial, Helvetica, sans-serif;
+                        }  
+                        #table_container table {
+                                border-collapse: separate;
+                                table-layout: fixed;
+                                display: table;
+                                border-spacing: 2px;
+                        }
+                        #table_container {
+                                margin: auto;
+                                padding: 10px;
+                                border: 1px solid #D1D1D1;
+                                border-radius: 5px;
+                        }
+                        #table_container tr#stats th {
+                                font-size: 0.7em;
+                                padding: 3px 4px;
+                                border-left: 1px solid #D1D1D1;
+                                border-right: 1px solid #D1D1D1;
+                                border-top: 1px solid #D1D1D1;
+                                border-top-right-radius: 5px;
+                                border-top-left-radius: 5px;
+                        }
+                        #table_container td {
+                                font-size: 0.8em;
+                                padding: 4px 5px;
+                                border: 1px solid #A1A1A1;
+                        }
+                        #table_container th, #table_container td {
+                                font-family: Arial, Helvetica, sans-serif;
+                                text-align: center;
+                        }
+
 div.info
 {
 white-space:nowrap; 
