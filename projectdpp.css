@@ -1,5 +1,5 @@
 html, body {
-	font-family: Verdana, Arial;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 	font-size: 11px;
 	scrollbar-face-color: #5685c4;
 	scrollbar-highlight-color: #99CCFF; 
@@ -13,7 +13,7 @@ html, body {
 	padding:0px;
 }
 
-a { font-family: Century Gothic, Arial; color: #FFFFFF; text-decoration: underline; }
+a { font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif; color: #FFFFFF; text-decoration: underline; }
 a:hover { color: #5685c4; text-decoration: underline; }
 
 form {
@@ -23,7 +23,7 @@ form {
 
 textarea {
 	background: #262626;
-	font-family: Verdana, Arial;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 	font-size: 11px;
 	color: #FFFFFF;
 	text-decoration: none;
@@ -32,13 +32,13 @@ textarea {
 	border: 1px solid #736F6E;
 }
 
-.header { color: #FFFFFF; text-decoration: none; font-family: Verdana, Arial; }
+.header { color: #FFFFFF; text-decoration: none; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif; }
 
-.footer { color: #FFFFFF; text-decoration: none; font-family: Verdana, Arial; font-size: 10px; }
+.footer { color: #FFFFFF; text-decoration: none; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif; font-size: 10px; }
 .footer a { color: #FFFFFF; text-decoration: underline; }
 .footer a:hover { color: #FFFFFF; text-decoration: underline; }
 
-.nav { color: #FFFFFF; text-decoration: none; font-family: Verdana, Arial; font-size: 10pt; }
+.nav { color: #FFFFFF; text-decoration: none; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif; font-size: 10pt; }
 .nav a { color: #FFFFFF; text-decoration: none; }
 .nav a:hover { color: #FFFFFF; text-decoration: none; }
 
@@ -69,13 +69,13 @@ textarea {
 }
 
 
-.blue { color: #5685c4; text-decoration: underline; font-family: Verdana, Arial; }
+.blue { color: #5685c4; text-decoration: underline; font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif; }
 .blue a { color: #5685c4; text-decoration: underline; }
 .blue a:hover { color: #5685c4; text-decoration: underline; }
 
 .box {
 	background-color: #262626;
-	font-family: Verdana, Arial;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 	font-size: 11px;
 	color: #FFFFFF;
 	text-decoration: none;
@@ -84,7 +84,7 @@ textarea {
 	border: 1px solid #736F6E;
 }
 
-td { font-family: Verdana, Arial; font-size: 10pt; }
+td { font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif; font-size: 10pt; }
 
 li { margin-left: 25px; }
 
@@ -124,19 +124,19 @@ background-color: #FEFEFE;
 }
 
                         p {
-				font-family: Century Gothic, sans-serif;                        
+				font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;                       
                         }
                         h1 {
-                                font-family: Arial, Helvetica, sans-serif;
+                                font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
                         }
                         h2 {
-                                font-family: Arial, Helvetica, sans-serif;
+                                font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
                         }
                         h3 {
-                                font-family: Arial, Helvetica, sans-serif;
+                                font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
                         }
                         h4 {
-                                font-family: Arial, Helvetica, sans-serif;
+                                font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
                         }  
                         #table_container table {
                                 border-collapse: separate;
@@ -165,7 +165,7 @@ background-color: #FEFEFE;
                                 border: 1px solid #A1A1A1;
                         }
                         #table_container th, #table_container td {
-                                font-family: Arial, Helvetica, sans-serif;
+                                font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
                                 text-align: center;
                         }
 
